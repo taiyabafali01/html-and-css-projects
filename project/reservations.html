@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Reservations | Space Station</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="brand" href="index.html">Space Station</a>
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="gallery.html">GALLERY</a></li>
+        <li><a class="active" href="reservations.html">RESERVATIONS</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1>Reservations</h1>
+    <p>Please submit your details and our flight crew will confirm your launch window.</p>
+
+    <form class="res-form" action="">
+      <label for="fullname">Full Name</label>
+      <input id="fullname" name="fullname" type="text" placeholder="Your name" required>
+
+      <label for="email">Email</label>
+      <input id="email" name="email" type="email" placeholder="you@example.com" required>
+
+      <label for="date">Preferred Launch Date</label>
+      <input id="date" name="date" type="date" required>
+
+      <label for="guests">Passengers</label>
+      <input id="guests" name="guests" type="number" min="1" max="6" value="1">
+
+      <label for="package">Package</label>
+      <select id="package" name="package">
+        <option>Orbit Explorer (2 nights)</option>
+        <option>Zero-G Weekend (3 nights)</option>
+        <option>EVA Experience (4 nights)</option>
+      </select>
+
+      <label for="notes">Notes</label>
+      <textarea id="notes" name="notes" rows="4" placeholder="Special requests…"></textarea>
+
+      <button class="btn" type="submit">Submit Request</button>
+    </form>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2025 Space Station Resort</p>
+  </footer>
+</body>
+</html>
