@@ -1,0 +1,22 @@
+:root { --brand-teal:#1aa6aa; }
+html { scroll-behavior:smooth; }
+
+/* Header */
+.brand-bar { background:var(--brand-teal); color:#fff; }
+.brand-bar .nav-link { color:#fff !important; font-weight:500; }
+.brand-bar .nav-link:hover, .brand-bar .nav-link:focus { text-decoration:underline; }
+.brand-bar .py-5 { padding-top:2.5rem !important; padding-bottom:2.5rem !important; }
+
+/* Cards / lists */
+.now-playing .list-group-item { border-color:#e7e7e7; }
+
+/* Buttons in site color */
+.btn-primary { background-color:var(--brand-teal); border-color:var(--brand-teal); }
+.btn-primary:hover { background-color:#138f91; border-color:#138f91; }
+
+/* Section anchors */
+section { scroll-margin-top:24px; }
+
+/* Footer links */
+footer a { color:var(--brand-teal); }
+footer a:hover { text-decoration:underline; }
